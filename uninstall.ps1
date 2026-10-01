@@ -15,4 +15,6 @@ if (-not $StopOnly) {
         Remove-Item $lnkPath
         Write-Host "Removed startup shortcut."
     }
+    $launcher = Join-Path $PSScriptRoot 'shitty-mouse-scroll-fix.exe'
+    if (Test-Path $launcher) { Remove-Item $launcher -Force }
 }

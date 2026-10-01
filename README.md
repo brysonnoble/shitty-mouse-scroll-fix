@@ -16,7 +16,7 @@ Requires [Python 3](https://www.python.org/downloads/) (check "Add python.exe to
 
 **Double-click `install.bat`.** That's it.
 
-This adds a shortcut to your Startup folder (so it runs every time you log in) and starts it right away. It runs with no window, and only one copy runs at a time. It shows up in Task Manager → Startup apps, where you can disable it.
+This adds a shortcut to your Startup folder (so it runs every time you log in) and starts it right away. It runs with no window, and only one copy runs at a time. It shows up in Task Manager → Startup apps (listed as **Shitty Mouse Scroll Fix**), where you can disable it. To get that name, the installer builds a tiny `shitty-mouse-scroll-fix.exe` launcher in this folder that just starts the script with `pythonw`.
 
 To stop it and remove it from startup, **double-click `uninstall.bat`**.
 
